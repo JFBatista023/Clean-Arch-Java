@@ -3,6 +3,9 @@ package br.com.school.domain.student;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.Data;
+
+@Data
 public class Student {
     
     private CPF cpf;

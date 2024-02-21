@@ -1,5 +1,8 @@
 package br.com.school.domain.student;
 
+import lombok.Data;
+
+@Data
 public class Email {
 
     private String address;
